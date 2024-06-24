@@ -1,0 +1,103 @@
+.gameCard{
+    position: relative;
+    padding: 25px 20px;
+    margin-bottom: 25px;
+    width: auto;
+    height: 450px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+    background: var(--bgColor);
+    box-shadow: -5px -5px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+}
+.gameCard img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+.gameCard .like{
+    position: absolute;
+    top: 24px;
+    right: 19px;
+    width: 40px;
+    height: 40px;
+    background: var(--bgColor);
+    padding: 5px;
+    border-radius: 0 0 0 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.gameCard .like.active{
+    color:rgb(232, 15, 188);
+}
+.gameCard span{
+    color: white;
+}
+.gameCard .gameFeature{
+    display: flex;
+    justify-content: space-between;
+}
+.gameCard .gameType{
+    background: rgb(103, 13, 125);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.gameCard .gameTitle{
+    margin-top: 10px;
+    font-family: 'Bauhaus 93';
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+.gameCard .gamePrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gameCard .discount{
+    background: rgb(103, 13, 125);;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.gameCard .prevPrice{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    font-size: 0.8rem;
+}
+.gameCard .addBag{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background: rgb(232, 15, 188);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px 0;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.gameCard .addBag:hover{
+    background: rgb(103, 13, 125);
+}
+.gameCard .addBag.active{
+    background: rgb(103, 13, 125);
+}

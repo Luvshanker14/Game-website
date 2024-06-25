@@ -24,9 +24,10 @@ const filterListData=[
         name: 'Racing',
         active: false,
     },
+    
     {
         _id: 6,
-        name: 'Fighting',
+        name: 'Horror',
         active: false,
     },
     {
@@ -39,6 +40,16 @@ const filterListData=[
         name: 'Sports',
         active: false,
     },
+    {
+        _id: 8,
+        name: 'Action',
+        active: false,
+    },
+    {
+        _id: 9,
+        name: 'Fighting',
+        active: false,
+    }
 ]
 
 export default filterListData;

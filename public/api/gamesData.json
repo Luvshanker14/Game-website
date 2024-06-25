@@ -643,5 +643,83 @@
     "img": "https://media.contentapi.ea.com/content/dam/eacom/dead-space/images/2022/10/dead-space-featured-image.jpg.adapt.crop191x100.1200w.jpg",
     "trailer": "https://www.youtube.com/embed/ZswyDMyVXts",
     "active": false
-  }
+  },
+  {
+    "_id": 50,
+    "title": "Heroes of the Storm",
+    "description": "Engage in fast-paced team battles with iconic characters from Blizzard's franchises in this dynamic MOBA.",
+    "level": "High",
+    "category": "MOBA",
+    "rating": 4,
+    "discount": 0.2,
+    "price": 20.0,
+    "img": "https://blz-contentstack-images.akamaized.net/v3/assets/blt0e00eb71333df64e/blt03542249d3e68c2a/65bc49d6529b719b244a1436/game_features_1.webp",
+    "trailer": "https://www.youtube.com/embed/0ecv0bT9DEo",
+    "active": false
+  },
+  {
+    "_id": 51,
+    "title": "Street Fighter V",
+    "description": "Experience the legendary fighting game series with iconic characters and strategic combat.",
+    "level": "High",
+    "category": "Fighting",
+    "rating": 4,
+    "discount": 0.3,
+    "price": 19.99,
+    "img": "https://cdn.mos.cms.futurecdn.net/Ax62rUQ4WAotXNTF5Whpfg.jpg",
+    "trailer": "https://www.youtube.com/embed/4-t0PODo6CI",
+    "active": false
+  },
+{
+  "_id": 52,
+  "title": "Devil May Cry 5",
+  "description": "Experience the adrenaline-fueled action as you battle demons in stylish combat with Dante, Nero, and V.",
+  "level": "High",
+  "category": "Action",
+  "rating": 4,
+  "discount": 0.1,
+  "price": 29.99,
+  "img": "https://www.svg.com/img/gallery/devil-may-cry-6-when-will-we-get-a-sequel/dantes-next-appearance-1623169407.jpg",
+  "trailer": "https://www.youtube.com/embed/6b4hIRaG7Wk",
+  "active": false
+},
+{
+  "_id": 53,
+  "title": "Ghost Recon Breakpoint",
+  "description": "Navigate the hostile Auroa archipelago in this tactical shooter, where survival and strategy are paramount.",
+  "level": "High",
+  "category": "Mission",
+  "rating": 4,
+  "discount": 0.3,
+  "price": 39.99,
+  "img": "https://external-preview.redd.it/insider-gaming-details-on-project-over-the-next-mainline-v0-1lIUK9W6nw9vFk2ctpgcDHztUN7aUvQzyl7TnkfrfoM.jpg?width=640&crop=smart&auto=webp&s=6038ef2c78ef2fe3a8ec59223154e5e7daabfe39",
+  "trailer": "https://www.youtube.com/embed/4HthZO7k-Vo",
+  "active": false
+},
+{
+  "_id": 54,
+  "title": "Overwatch 2",
+  "description": "Join the ranks of heroes in this team-based shooter sequel, featuring new maps, heroes, and cooperative gameplay.",
+  "level": "Median",
+  "category": "Battle",
+  "rating": 4,
+  "discount": 0.1,
+  "price": 59.99,
+  "img": "https://cdn.mos.cms.futurecdn.net/dUWTRzjwrcCc9jd3t5oF3V-1200-80.jpg",
+  "trailer": "https://www.youtube.com/embed/FrEoDl6V-ZU",
+  "active": false
+},
+{
+  "_id": 55,
+  "title": "Need for Speed Heat",
+  "description": "Race through the neon-lit streets of Palm City, where the line between law enforcement and street racers blurs.",
+  "level": "High",
+  "category": "Racing",
+  "rating": 4,
+  "discount": 0.2,
+  "price": 29.99,
+  "img": "https://assetsio.gnwcdn.com/need_for_speed_heat_5.png?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+  "trailer": "https://www.youtube.com/embed/9ewiJJe_nYI",
+  "active": false
+}
 ]
